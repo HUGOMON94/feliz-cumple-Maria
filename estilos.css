@@ -71,25 +71,25 @@ body::before {
 /*para moviles*/
 
 /* Estilos para pantallas de dispositivos móviles */
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 800px) {
   /* Ajuste general del body */
   body {
-    padding: 20px; /* Añade un poco de padding para dispositivos pequeños */
+    padding: 30px; /* Añade un poco de padding para dispositivos pequeños */
     overflow: auto; /* Permite el scroll si el contenido se desborda */
   }
 
   /* Ajuste del mensaje de cumpleaños */
   #birthdayMessage {
-    width: 70%; /* Asegura que el mensaje no se desborde en pantallas pequeñas */
+    width: 60%; /* Asegura que el mensaje no se desborde en pantallas pequeñas */
     font-size: 0.75em; /* Ajuste del tamaño de texto */
   }
 
   /* Ajuste de la torta y elementos centrales */
   #efecto-cumple {
     top: auto;
-    bottom: 105%;
+    bottom: 100%;
     right: auto;
-    left: 20%;
+    left: 10%;
     transform: translate(-50%, -50%) scale(0.7); /* Ajuste de posición y tamaño */
   }
 
@@ -915,3 +915,4 @@ button:hover i:nth-child(11) {
   background: linear-gradient(270deg, rgba(78, 2, 2, 0.681) 0%, rgba(232, 31, 31, 0.873) 60%);
   color: rgb(38, 4, 4);
 }
+
