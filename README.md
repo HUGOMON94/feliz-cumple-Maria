@@ -1,4 +1,3 @@
-Puedes visitar el [proyecto en línea](https://diegodepab.github.io/Birthday_Page/cumple.html) para ver el resultado final.
 
 # 🎉 Proyecto de Página de Cumpleaños Interactiva 🎂
 
