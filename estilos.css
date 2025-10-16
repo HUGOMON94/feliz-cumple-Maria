@@ -96,8 +96,8 @@ body::before {
 
   /* Ajuste de iconos dentro de los botones (si aplica) */
   button i {
-    font-size: 10px; /* Ajusta el tamaño de las letras */
-    letter-spacing: 10px; /* Reduce el espaciado */
+    font-size: 12px; /* Ajusta el tamaño de las letras */
+    letter-spacing: 2px; /* Reduce el espaciado */
   }
   /* Botones */
   #fiesta-boton{
@@ -105,7 +105,7 @@ body::before {
     bottom: auto;
     left: 300px;
     transform: translate(-100%, -50px);
-    bottom: 450px; /* Espaciado específico */
+    bottom: 485px; /* Espaciado específico */
   }
 
     /* Botones */
@@ -915,5 +915,6 @@ button:hover i:nth-child(11) {
   background: linear-gradient(270deg, rgba(78, 2, 2, 0.681) 0%, rgba(232, 31, 31, 0.873) 60%);
   color: rgb(38, 4, 4);
 }
+
 
 
